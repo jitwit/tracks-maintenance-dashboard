@@ -191,6 +191,14 @@
     "core_enabled": false
   },
   {
+    "slug": "j",
+    "name": "J",
+    "core_enabled": true,
+    "versioning": "exercises/{slug}/.meta/config/version",
+    "stub_file": "exercises/{slug}/{exercise-slug}.ijs",
+    "test_file": "exercises/{slug}/test.ijs"
+  },
+  {
     "slug": "java",
     "name": "Java",
     "core_enabled": true,
